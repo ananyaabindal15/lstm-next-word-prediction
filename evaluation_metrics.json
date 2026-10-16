@@ -1,0 +1,24 @@
+{
+    "lstm_baseline": {
+        "name": "LSTM Baseline (next_word_lstm.h5)",
+        "metrics": {
+            "loss": 3.7017,
+            "perplexity": 40.51,
+            "top1_accuracy": 38.61,
+            "top3_accuracy": 51.29,
+            "top5_accuracy": 58.05,
+            "top10_accuracy": 66.54
+        }
+    },
+    "lstm_early_stopping": {
+        "name": "LSTM Early Stopping (next_word_lstm_model_with_early_stopping.h5)",
+        "metrics": {
+            "loss": 4.8181,
+            "perplexity": 123.73,
+            "top1_accuracy": 14.65,
+            "top3_accuracy": 26.35,
+            "top5_accuracy": 33.48,
+            "top10_accuracy": 44.82
+        }
+    }
+}
