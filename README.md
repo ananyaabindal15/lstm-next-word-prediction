@@ -3,7 +3,6 @@
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.15-orange.svg)](https://www.tensorflow.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.60-red.svg)](https://streamlit.io/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A deep learning Natural Language Processing (NLP) system that performs **next-word prediction and text continuation** trained on Shakespeare's masterpiece *Hamlet*. The project features deep Recurrent Neural Network (LSTM/GRU) models, an automated quantitative evaluation pipeline, and an interactive **Streamlit web application**.
 
@@ -121,8 +120,3 @@ To recompute metrics and regenerate the comparison plots:
 python evaluate.py
 ```
 This will evaluate both `.h5` model files on the test split, update `evaluation_metrics.json`, and refresh `evaluation_metrics.png`.
-
----
-
-## 📜 License
-This project is open-source under the [MIT License](LICENSE).
